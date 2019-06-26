@@ -6,15 +6,15 @@ This repository contains code for FusionNet experiment of 'Deep Built-Structure 
 ### 1. DenseNet Features:
     We have used DenseNet as backbone of our counting pipeline. The folder 'DenseNet' contains a notebook called DenseNet_Feature_Extractor.ipynb'. We extract 'pool5' layer feature vector and 'Relu5_blk' layer features volume from DenseNet one by one. Users need to uncomment the corresponding line for extracting specific features.
     
-    #### Inputs:
+    Inputs:
           1. A text file that contains names of image files for which features are to be extracted
           2. Images folder path
           3. Output folder
       
-    #### Output:
+    Output:
           1. Feature Maps (.mat files)
       
-2. SSNet:
+### 2. SSNet:
     Satellite Segmentation Network is the model that predicts per pixel probability of built-up presence in an image. This model is used as attention map for DenseNet feature volumes. The folder SSNet contains a notebook called ''.
     
     Inputs:
@@ -25,7 +25,7 @@ This repository contains code for FusionNet experiment of 'Deep Built-Structure 
     Output:
       1. Attention Maps (.mat files)
       
-3. Product Maps:
+### 3. Product Maps:
     To introduce attention in the feature maps, a MATLAB script called 'pgap_weighted_summation.m' is used to multiply the SSNet Probability Maps and DenseNet 'relu5_blk' maps. A python version of the script is also provided called 'fuse_maps.ipynb' with the only difference that it does not perform 'anti-aliasing' which MATLAB performs by default.
      Inputs:
       1. fmap_path (folder path that contains relu5_blk feature maps)
@@ -37,7 +37,7 @@ This repository contains code for FusionNet experiment of 'Deep Built-Structure 
       1. Product Maps (.mat files)
       2. Global Weighted Average Pooled (GAP) Feature Vectors (.mat files)
       
- 4. FusionNet Model:
+ ### 4. FusionNet Model:
      The notebook called 'FusionNet.ipynb' contains code for training and testing FusionNet.
      
      Inputs:
@@ -52,5 +52,15 @@ This repository contains code for FusionNet experiment of 'Deep Built-Structure 
       1. Trained model weights (.hdf5 files)
       
       
-    
+ ### cite as:
+ @article{shakeel2019deep,
+  title={Deep built-structure counting in satellite imagery using attention based re-weighting},
+  author={Shakeel, Anza and Sultani, Waqas and Ali, Mohsen},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={151},
+  pages={313--321},
+  year={2019},
+  publisher={Elsevier}
+}
+ 
       
