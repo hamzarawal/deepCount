@@ -52,7 +52,7 @@ This repository contains code for FusionNet experiment of 'Deep Built-Structure 
       1. Trained model weights (.hdf5 files)
       
       
- ### cite as:
+ ### 5. Citation:
  @article{shakeel2019deep,
   title={Deep built-structure counting in satellite imagery using attention based re-weighting},
   author={Shakeel, Anza and Sultani, Waqas and Ali, Mohsen},
