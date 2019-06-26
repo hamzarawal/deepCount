@@ -26,7 +26,7 @@ This repository contains code for FusionNet experiment of ['Deep Built-Structure
       1. Attention Maps (.mat files)
       
 ### 3. Product Maps:
-    To introduce attention in the feature maps, a MATLAB script called 'pgap_weighted_summation.m' is used to multiply the SSNet Probability Maps and DenseNet 'relu5_blk' maps. A python version of the script is also provided called 'fuse_maps.ipynb' with the only difference that it does not perform 'anti-aliasing' which MATLAB performs by default.
+    To introduce attention in the feature maps, a MATLAB script called 'pgap_weighted_summation.m' is used to multiply the SSNet Probability Maps and DenseNet 'relu5_blk' maps. A python version of the script is also provided called 'fuse_maps.ipynb' with the only difference that it does not perform 'anti-aliasing' (which MATLAB performs by default) during resizing feature maps.
      Inputs:
       1. fmap_path (folder path that contains relu5_blk feature maps)
       2. detection_path (folder path that contains SSNet probability maps)
