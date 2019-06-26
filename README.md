@@ -53,14 +53,14 @@ This repository contains code for FusionNet experiment of 'Deep Built-Structure 
       
       
  ### 5. Citation:
- @article{shakeel2019deep,
-  title={Deep built-structure counting in satellite imagery using attention based re-weighting},
-  author={Shakeel, Anza and Sultani, Waqas and Ali, Mohsen},
-  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
-  volume={151},
-  pages={313--321},
-  year={2019},
-  publisher={Elsevier}
-}
+     @article{shakeel2019deep,
+      title={Deep built-structure counting in satellite imagery using attention based re-weighting},
+      author={Shakeel, Anza and Sultani, Waqas and Ali, Mohsen},
+      journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+      volume={151},
+      pages={313--321},
+      year={2019},
+      publisher={Elsevier}
+      }
  
       
