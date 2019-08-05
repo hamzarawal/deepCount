@@ -18,17 +18,17 @@ Download Dataset from ['Counting Dataset']( https://drive.google.com/a/itu.edu.p
  
  ## Implementation 
  ### Requirements
-  ######    1. python 2.7
-  ######    2. tensorflow == 1.10.0
-  ######    3. numpy >== 1.15.2
-  ######    4. keras == 2.2.3
+   1. python 2.7
+   2. tensorflow == 1.10.0
+   3. numpy >== 1.15.2
+   4. keras == 2.2.3
  ### Settings
- ######    1. learning rate = 0.01
- ######   2. Optimizer SGD 
+   1. learning rate = 0.01
+   2. Optimizer SGD 
  ### Procedure
- ######    1. Download SSNet base netwrok's weights from [SSNet Base](https://drive.google.com/file/d/1ZWhytq0GDNX15iiTB817ZjzVSlJtyapX/view?usp=sharing) and add to "Models" folder.
- ######    2. Run "FusionNet.ipynb".
- ######    3. Add root path , dataset path and feature path .
+   1. Download SSNet base netwrok's weights from  [SSNet Base](https://drive.google.com/file/d/1ZWhytq0GDNX15iiTB817ZjzVSlJtyapX/view?usp=sharing) and add to "Models" folder.
+   2. Run "FusionNet.ipynb".
+   3. Add root path , dataset path and feature path .
  ## Citation:
      @article{shakeel2019deep,
       title={Deep built-structure counting in satellite imagery using attention based re-weighting},
