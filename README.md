@@ -2,7 +2,7 @@
 ## Deep Built-Structure Counting Using Attention Based Re-weighting
 
 This repository contains code for FusionNet experiment of ['Deep Built-Structure Counting in Satellite Imagery Using Attention Based Re-weighting'](https://www.researchgate.net/publication/332139732_Deep_Built-Structure_Counting_in_Satellite_Imagery_Using_Attention_Based_Re-Weighting) published in ISPRS Journal 2019. Following are the main modules/files of the code:
-
+##Overview
 ### 1. DenseNet Features:
     We have used DenseNet as backbone of our counting pipeline. The folder 'DenseNet' contains a notebook called DenseNet_Feature_Extractor.ipynb'. We extract 'pool5' layer feature vector and 'Relu5_blk' layer features volume from DenseNet one by one. Users need to uncomment the corresponding line for extracting specific features.
     
