@@ -54,19 +54,19 @@ This repository contains code for FusionNet experiment of ['Deep Built-Structure
  
  ## Implementation 
  ### Requirements
-     - python 2.7
-     - tensorflow == 1.10.0
-     - numpy >== 1.15.2
-     - keras == 2.2.3
+     1. python 2.7
+     2. tensorflow == 1.10.0
+     3. numpy >== 1.15.2
+     4. keras == 2.2.3
  ### Settings
-     - learning rate = 0.01
-     - Optimizer SGD 
+     1. learning rate = 0.01
+     2. Optimizer SGD 
  ### Procedure
-     - Download dataset from "".
-     - Download this repo.
-     - Download weights of base netwrok from "" and add to "Models" folder.
-     - Run "FusionNet.ipynb".
-     - Add root path , dataset path and feature path .
+     1. Download dataset from "".
+     2. Download this repo.
+     3. Download weights of base netwrok from "" and add to "Models" folder.
+     4. Run "FusionNet.ipynb".
+     5. Add root path , dataset path and feature path .
  ## Citation:
      @article{shakeel2019deep,
       title={Deep built-structure counting in satellite imagery using attention based re-weighting},
