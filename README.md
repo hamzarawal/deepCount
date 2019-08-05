@@ -24,7 +24,7 @@ This repository contains code for FusionNet experiment of ['Deep Built-Structure
      1. learning rate = 0.01
      2. Optimizer SGD 
  ### Procedure
-     1. Download dataset from [Counting Dataset](https://drive.google.com/a/itu.edu.pk/file/d/1WRf8gYOpUVtkTmGFBw1aS1xDZ3jxsRsS/view?usp=drivesdk).
+     1. Download dataset from ['Counting Dataset'](https://drive.google.com/a/itu.edu.pk/file/d/1WRf8gYOpUVtkTmGFBw1aS1xDZ3jxsRsS/view?usp=drivesdk).
      2. Download weights of base netwrok from "" and add to "Models" folder.
      3. Run "FusionNet.ipynb".
      4. Add root path , dataset path and feature path .
