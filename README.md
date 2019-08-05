@@ -51,8 +51,23 @@ This repository contains code for FusionNet experiment of ['Deep Built-Structure
      Outputs:
       1. Trained model weights (.hdf5 files)
       
-      
- ### 5. Citation:
+ 
+ ## Implementation 
+ ### Requirements
+     - python 2.7
+     - tensorflow == 1.10.0
+     - numpy >== 1.15.2
+     - keras == 2.2.3
+ ### Settings
+     - learning rate = 0.01
+     - Optimizer SGD 
+ ### Procedure
+     - download dataset from "".
+     - Download this repo.
+     - Download weights of base netwrok from "" and add to "Models" folder.
+     - run "FusionNet.ipynb".
+     - Add root path , dataset path and feature path .
+ ### Citation:
      @article{shakeel2019deep,
       title={Deep built-structure counting in satellite imagery using attention based re-weighting},
       author={Shakeel, Anza and Sultani, Waqas and Ali, Mohsen},
