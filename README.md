@@ -26,7 +26,7 @@ Download Dataset from ['Counting Dataset']( https://drive.google.com/a/itu.edu.p
      1. learning rate = 0.01
      2. Optimizer SGD 
  ### Procedure
-     1. Download weights of base netwrok from " https://drive.google.com/file/d/1ZWhytq0GDNX15iiTB817ZjzVSlJtyapX/view?usp=sharing " and add to "Models" folder.
+     1. Download SSNet base netwrok's weights from [SSNet Base](https://drive.google.com/file/d/1ZWhytq0GDNX15iiTB817ZjzVSlJtyapX/view?usp=sharing) and add to "Models" folder.
      2. Run "FusionNet.ipynb".
      3. Add root path , dataset path and feature path .
  ## Citation:
