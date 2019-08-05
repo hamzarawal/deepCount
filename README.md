@@ -62,12 +62,12 @@ This repository contains code for FusionNet experiment of ['Deep Built-Structure
      - learning rate = 0.01
      - Optimizer SGD 
  ### Procedure
-     - download dataset from "".
+     - Download dataset from "".
      - Download this repo.
      - Download weights of base netwrok from "" and add to "Models" folder.
-     - run "FusionNet.ipynb".
+     - Run "FusionNet.ipynb".
      - Add root path , dataset path and feature path .
- ### Citation:
+ ## Citation:
      @article{shakeel2019deep,
       title={Deep built-structure counting in satellite imagery using attention based re-weighting},
       author={Shakeel, Anza and Sultani, Waqas and Ali, Mohsen},
